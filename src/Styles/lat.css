@@ -1,0 +1,49 @@
+/* .App {
+    text-align: center;
+    display: grid;
+      grid-template-columns: auto auto auto auto auto;
+      grid-column-gap: 0.5px;
+  } */
+  .news-type{
+    align-items: center;
+  }
+  .container{
+    display: flex;
+    padding: 1rem;
+    border: 4px solid white;
+    border-radius: 5px;
+    min-height: 300px;
+    width: 900px;
+    margin: 5px auto;
+    font-family: 'Nanum Myeongjo', serif;
+    background-color: white;
+    box-shadow: 2px 2px 4px rgb(87, 84, 84);
+  }
+  .container img{
+    margin-right: 2rem;
+    border-radius: 4px;
+  }
+  .cont{
+      display: grid;
+      margin-top: 8rem;
+      padding : 5px 16px 8px 8px;
+    
+  }
+
+.container .written .tittle{
+    font-size:2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+.container .written{
+    text-align: left;
+}
+.container .written .description{
+    font-size: 20px;
+}
+.container .link{
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+    padding-bottom: 0;
+}

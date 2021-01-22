@@ -1,0 +1,17 @@
+
+.container-main{
+    border: 10px solid #021E39;
+    width: 800px;
+    height: 400px;
+    margin: 100px auto;
+}
+.container-main h1{
+    margin: 0;
+    padding: 0;
+    padding: auto auto;
+    font-size: 10rem;
+}
+.container-main p{
+    font-size:2rem;
+    line-height: 4rem;
+}
